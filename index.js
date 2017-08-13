@@ -5,7 +5,8 @@ import {
   View,
   TextInput,
   Animated,
-  Platform
+  Platform,
+  I18nManager
 } from 'react-native'
 
 class FloatingLabel extends Component {
