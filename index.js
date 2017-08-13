@@ -220,7 +220,8 @@ const styles = StyleSheet.create({
   valueText: {
     height: (Platform.OS == 'ios' ? 20 : 60),
     fontSize: 16,
-    color: '#111111'
+    color: '#111111',
+    textAlign: (I18nManager.isRTL ? 'right' : 'left')
   },
   focused: {
     color: "#1482fe"
